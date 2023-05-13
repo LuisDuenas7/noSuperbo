@@ -1,0 +1,110 @@
+/*=========Fonts================*/
+@font-face {
+  font-family:varela;
+  src:url("VarelaRound-Regular.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family:popin;
+  src:url("Poppins-SemiBold.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family:spoti;
+  src:url("GothamMedium.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family:street;
+  src:url("Act_Of_Rejection.ttf");
+  font-style: normal;
+}
+.main-boxHome{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(11,11,12);
+    border-color: #222 2px solid;
+    margin-top: 0px;
+    top: 0%;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+
+    background-image: url(./isologoNegro.png);
+    background-repeat:round;
+    background-size:cover;
+    background-position: -400px;
+    background-size: 10%;
+  }
+  
+  .main-home{
+    margin-top: 10vh; 
+    width: 97%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:11vh;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+  .img-box{
+   
+    width: 90%;
+    height: 70%;
+  }
+  .text-box{
+    
+    width: 90%;
+    height: 10%;
+    background-color: #0f0f0f42;
+   backdrop-filter: blur(30px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+    box-shadow: rgba(56, 55, 55, 0.329) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+  }
+
+
+  .tittle{
+    font-size: 240%;
+    color: rgb(255, 255, 255);
+  font-family:spoti;
+  text-shadow: 1px 1px 1px #292929;
+   word-spacing: 4px;
+   letter-spacing: 5px;
+    }
+
+  .no-text{
+    font-size: 130%;
+   
+    color: rgb(118, 8, 156);
+    font-variant:small-caps;
+    font-family:street;
+    text-shadow: 0 1px 0 #292929, 
+           
+               0 4px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  }
+
+  .img-home{
+    width:100%;
+    size-adjust: 100%;
+    image-rendering: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  
+  }

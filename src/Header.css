@@ -1,0 +1,136 @@
+
+/*=========Fonts================*/
+
+@font-face{
+  font-family:varela;
+  src:url("VarelaRound-Regular.ttf");
+}
+/*=========Fonts================*/
+.header-box{
+    height: 8vh;
+    width: 100%;
+    background-color: #161616;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 500;
+    font-family:varela;
+    
+  }
+  .links-box{
+    height: 100%;
+    width:35%;
+    align-items: center;
+    justify-content:space-around;
+    display:flex;
+   
+  }
+
+  .logo-box{
+    height: 100%;
+    width: 33%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-box{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  
+  }
+  .social-icons{
+    color:rgb(231, 231, 231);
+    font-size:110%;
+  }
+  @keyframes animateBorder {
+    to {
+      transition: all 1s;
+      transform:scale(120%);
+      opacity: 50%;
+      transform:perspective(150%);
+      
+    }
+  }
+  .social-icons:hover{
+    color:rgb(114, 8, 156);
+    animation: 0.2s animateBorder linear;
+  }
+  /* #####################################*/
+  .buttons{
+      border: none;
+      color: rgb(196, 193, 193);
+      background-color:transparent;
+      font-family:varela;
+      font-size: 100%;
+      text-transform: uppercase;
+      position: relative;
+     
+  }
+
+  .buttons:hover,
+  .buttons:focus
+  {
+    cursor: pointer; 
+  }
+
+
+  .buttons::after{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: rgb(114, 8, 156);
+    position:absolute;
+    left: 0;
+    bottom: -15px;
+    opacity: 0;
+    transition: all 0.3s;
+    pointer-events: none;
+  }
+  .buttons:hover::after,
+  .buttons:hover::after{
+    opacity: 1;
+    animation: 0.2s animateBorder linear;
+
+  }
+
+
+  .logo{
+    width: 27%;
+    
+  }
+
+  .icon-active{
+   
+    border: none;
+    color: rgb(114, 8, 156);
+    background-color:transparent;
+    font-family:varela;
+    font-size: 100%;
+    text-transform: uppercase;
+    position: relative;
+
+  }
+  .icon-active::after{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: rgb(114, 8, 156);
+    position:absolute;
+    left: 0;
+    bottom: -15px;
+    opacity: 0;
+    transition: all 0.3s;
+    pointer-events: none;
+  }
+
+  .icon-active::after,
+  .icon-active::after{
+    opacity: 1;
+
+  }

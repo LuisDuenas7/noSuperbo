@@ -1,0 +1,131 @@
+.main-media{
+    margin-top: 10vh; 
+    width: 97%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:2vh;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+  .videos-box{
+   
+    width: 95%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+
+ 
+.video-box{
+  width: 100%;
+  height: 100%;
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  }
+
+.sub-video-box{
+  width:100%;
+  height: 92%;
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+  }
+
+.video{
+  width: max-content;
+  display:flexbox;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  overflow: hidden;
+  width: 70%;
+  height:100%
+}
+
+
+  @keyframes animateBorder {
+    to {
+      transition: all 1s;
+      transform:scale(140%);
+      opacity: 50%;
+      transform:perspective(150%);
+      
+    }}
+ 
+  .button-option-box{
+    width: 70%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    backdrop-filter: blur(90px);
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+  }
+
+ .button-option-box:hover{
+  background-color: rgb(16, 18, 34);
+
+ 
+ }
+
+
+  .button-option-prev{
+    border: none;
+    background-color: transparent;
+    font-size:170%;
+    background-color: rgb(2, 2, 2);
+    border-bottom-left-radius: 50%;
+    color: aliceblue;
+  }
+
+.button-option-prev:hover{
+  cursor: pointer;
+  color:rgb(114, 8, 156);
+  animation: 0.2s animateBorder linear;
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+.button-option-next{
+  border: none;
+  background-color: transparent;
+  color: rgb(216, 216, 216);
+  font-size:170%;
+  background-color: rgb(0, 0, 0);
+  border-bottom-right-radius: 50%;
+  
+}
+
+.button-option-next:hover{
+cursor: pointer;
+color:rgb(114, 8, 156);
+animation: 0.2s animateBorder linear;
+background-color: rgb(0, 0, 0);
+}
+
+/*=================================*/
+
+.music-box{
+  margin-top: 4vh;  
+  width: 70%;
+  height: 30%;
+ display: flex;
+ align-items: center;
+ justify-content:space-around;
+ 
+}
+
